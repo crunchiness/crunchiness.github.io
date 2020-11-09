@@ -61,36 +61,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 21px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
+  color: #222222;
 }
 
 p {
@@ -131,30 +102,6 @@ em {
 
 strong {
   font-weight: bold;
-}
-
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
-}
-
-p img {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-  border: none;
 }
 
 pre, code {
@@ -266,7 +213,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  width: 40vw;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -304,7 +251,8 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #111 0 0 10px;
+  font-family: 'Literata', 'Helvetica Neue', sans-serif;
 }
 
 #project_tagline {
@@ -422,4 +370,27 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+section.references {
+  margin-top: 20pt;
+}
+
+span.bib:target {
+  background-color: #f8ff39;
+  transition: all 1s linear;
+}
+
+.literata {
+  font-family: 'Literata', 'Helvetica Neue', sans-serif;
+  font-size: 13pt;
+}
+
+.literata h1, h2, h3, h4, h5, h6 {
+  font-family: 'Literata', 'Helvetica Neue', sans-serif;
 }
